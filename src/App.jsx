@@ -33,8 +33,8 @@ function App() {
   }, [songsData.length]); // Sử dụng useCallback
 
   return (
-    <div className="min-h-screen bg-gray-900 text-white flex flex-col items-center justify-center p-4">
-      <h1 className="text-4xl font-bold mb-8 text-blue-400">
+    <div className="min-h-screen bg-[#46bb84] text-white flex flex-col items-center justify-center p-4">
+      <h1 className="text-4xl font-bold mb-8 text-blue-800">
         Ứng dụng Chơi Nhạc Online
       </h1>
 
@@ -55,8 +55,8 @@ function App() {
         </div>
       </div>
 
-      <p className="mt-8 text-gray-500 text-sm">
-        Được phát triển bởi sinh viên JavaScript
+      <p className="mt-8 text-white text-sm">
+        Được phát triển bởi sinh viên Nguyễn Hoàng Quốc Bảo
       </p>
     </div>
   );

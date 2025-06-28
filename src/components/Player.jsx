@@ -86,7 +86,7 @@ const Player = ({ currentSong, onNext, onPrevious }) => {
     return `${minutes}:${secs < 10 ? "0" : ""}${secs}`;
   };
   return (
-    <div className="bg-gray-800 p-4 rounded-lg shadow-lg text-white flex flex-col items-center">
+    <div className="bg-[#538860] p-4 rounded-lg shadow-lg text-white flex flex-col items-center">
       {currentSong ? (
         <>
           <img

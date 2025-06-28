@@ -1,6 +1,6 @@
 const SongList = ({ songs, onSelectSong, currentSongId }) => {
   return (
-    <div className="bg-gray-800 p-4 rounded-lg shadow-lg text-white max-h-96 overflow-y-auto custom-scrollbar">
+    <div className="bg-[#538860] p-4 rounded-lg shadow-lg text-white max-h-96 overflow-y-auto custom-scrollbar">
       <h2 className="text-2xl font-bold mb-4">Danh sách bài hát</h2>
       <ul>
         {songs.map((song) => (
@@ -8,7 +8,7 @@ const SongList = ({ songs, onSelectSong, currentSongId }) => {
             key={song.id}
             onClick={() => onSelectSong(song)}
             className={`flex items-center p-3 mb-2 rounded-lg cursor-pointer transition-colors ${
-              currentSongId === song.id ? "bg-blue-600" : "hover:bg-gray-700"
+              currentSongId === song.id ? "bg-[#416b4b]" : "hover:bg-[#416b4b]"
             }`}
           >
             <img
